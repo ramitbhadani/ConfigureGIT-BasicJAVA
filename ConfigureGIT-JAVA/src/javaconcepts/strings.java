@@ -1,4 +1,4 @@
-package com.javaconcepts;
+package javaconcepts;
 
 public class strings {
 	
