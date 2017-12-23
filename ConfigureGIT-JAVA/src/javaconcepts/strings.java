@@ -11,6 +11,7 @@ public class strings {
 		for(int i=0;i<str1Split.length;i++) {
 			String a1 = str1Split[i];
 			System.out.println("Length of "  +a1 +    " is "    + a1.length());
+			System.out.println(a1.charAt(2));
 		//	System.out.println(str1Split[i]);
 		}
 		for(int i=0;i<str2Split.length;i++) {
