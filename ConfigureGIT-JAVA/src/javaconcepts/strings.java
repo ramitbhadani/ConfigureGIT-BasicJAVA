@@ -29,7 +29,13 @@ public class strings {
 		System.out.println("Starts With Function  " +str2.startsWith("Configure"));
 		System.out.println("Ends With Function   " +str2.endsWith("Methods"));
 		String type = str3.toUpperCase();
-		System.out.println("Ignore Case With Function   " +str2.equalsIgnoreCase(typ));
+		System.out.println("Ignore Case With Function   " +str2.equalsIgnoreCase(type));
+		try {
+		System.out.println(type.substring(-1, 9));
+		}
+		catch(Exception e) {
+			System.out.println("Error in Program  "  +e);
+		}
 	}
 
 }
